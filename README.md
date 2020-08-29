@@ -1,6 +1,6 @@
 # Spline Curve Editor
 **Name** \
-**Gabriel Caldwell**
+Gabriel Caldwell
 
 **Structure** \
 The code I developed can be found in \
