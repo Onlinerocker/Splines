@@ -12,3 +12,14 @@ This spline curve editor was created for one of my Computer Animation labs at Sw
 
 **Originally Created** \
 September 27, 2019
+
+
+**Windows Build Instructions** \
+Requirements: CMake, Visual Studio
+* Create new directory named 'build' in the project's root directory
+* Navigate to this new directory and run 'cmake ..'
+* This should build the required files
+* Open 'build/Project.sln' in Visual Studio
+* In the Solution Explorer, right click 'INSTALL', then click 'Build'
+* You should now have a 'bin' folder in the project's root directory
+* Navigate to 'bin/Debug' and run 'a3-curveEditor.exe'
