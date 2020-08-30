@@ -3,9 +3,9 @@
 Gabriel Caldwell
 
 **Structure** \
-My Computer Animation course required us to develop key animation library features, and implement those features in applications. Application specific code can be found in *assignments* and library code can be found in *libsrc/animation*. \
+My Computer Animation course required us to develop key animation library features, and implement those features in applications. Application specific code can be found in *assignments* and library code can be found in *libsrc/animation*.
 
-Project dependencies are located in *3rdparty*. You shouldn't need to touch these. \
+Project dependencies are located in *3rdparty*. You shouldn't need to touch these.
 
 For this assignment, the code I developed can be found in \
 *assignments/a3-splines/ACurveEditor.cpp* \
