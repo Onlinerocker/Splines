@@ -3,8 +3,11 @@
 Gabriel Caldwell
 
 **Structure** \
-The code I developed can be found in \
+My Computer Animation course required us to develop key animation library features, and implement those features in applications. Application specific code can be found in *assignments* and library code can be found in *libsrc/animation*.
+
+For this assignment, the code I developed can be found in \
 *assignments/a3-splines/ACurveEditor.cpp* \
+and \
 *libsrc/animation/AInterpolator-basecode.cpp*.
 
 **Description** \
