@@ -3,7 +3,7 @@
 Gabriel Caldwell
 
 **Structure** \
-My Computer Animation course required us to develop key animation library features, and implement those features in applications. Application specific code can be found in *assignments* and library code can be found in *libsrc/animation*.
+During my Computer Animation course I developed key animation library features, and implemented those features into various applications. Application specific code can be found in *assignments* and library code can be found in *libsrc/animation*.
 
 Project dependencies are located in *3rdparty*. You shouldn't need to touch these.
 
@@ -13,7 +13,7 @@ and \
 *libsrc/animation/AInterpolator-basecode.cpp*.
 
 **Description** \
-This spline curve editor was created for one of my Computer Animation labs at Swarthmore College. I implemented functions to calculate control points for Catmul-Rom and Hermite Splines respectively. Additionally, I developed functions to interpolate a point across each spline. 
+This spline curve editor was created during my Computer Animation course at Swarthmore College. The goal was to create an interactive way to learn about different types of splines/interpolation. I implemented functions to calculate control points for Catmul-Rom and Hermite Splines respectively. Additionally, I developed functions to interpolate a point across each spline. 
 
 **Originally Created** \
 September 27, 2019
