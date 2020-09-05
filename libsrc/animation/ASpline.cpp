@@ -144,7 +144,6 @@ AVector3 ASpline::getValue(double t, bool loop) const
     if (mKeys.size() == 0) return AVector3();
     if (mKeys.size() == 1) return mKeys[0];
 
-
     if (loop)
     {
         t = getNormalizedDuration(t) * getDuration();
@@ -157,11 +156,13 @@ AVector3 ASpline::getValue(double t, bool loop) const
 
     if (mDirty) 
     {
-        mInterpolator->resetControlPoints(mKeys);
+        mInterpolator->clearControlPoints();
+	mInterpolator->resetControlPoints(mKeys);
         mDirty = false;
     }
 
     int segment = computeSegment(t);
+    
     double u = (t - mTimes[segment])/(mTimes[segment+1] - mTimes[segment]);
     return mInterpolator->interpolate(segment, u);
 }

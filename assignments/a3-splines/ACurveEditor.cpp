@@ -156,8 +156,8 @@ void ACurveEditor::initializeGui()
     curveType = TwDefineEnum("CurveType", curveTypeEV, 3);
     TwAddVarCB(mCurveBar, "Type", curveType, onSetStyleCb, onGetStyleCb, this, " ");
 
-    TwEnumVal modeTypeEV[] = { { ADD, "Add" }, { EDIT, "Edit" }, { REMOVE, "Delete" } };
-    modeType = TwDefineEnum("ModeType", modeTypeEV, 3);
+    TwEnumVal modeTypeEV[] = { { ADD, "Add" }, { EDIT, "Edit" } };
+    modeType = TwDefineEnum("ModeType", modeTypeEV, 2);
     TwAddVarRW(mCurveBar, "Mode", modeType, &mMode, NULL);
 
     TwAddVarRW(mCurveBar, "Ctrl pts", TW_TYPE_BOOLCPP, &mShowControlPoints, "");
@@ -221,6 +221,7 @@ void ACurveEditor::deletePoint(int x, int y)
         AVector3 pt = mSpline.getKey(i);
         if ((tmp - pt).length() < mRadius)
         {
+	    std::cout << "deleting " << i << std::endl;
             mSpline.deleteKey(i);
             break;
         }

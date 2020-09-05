@@ -27,6 +27,7 @@ if (WIN32)
      3rdparty/glut/glutx86/glew32.dll 
      3rdparty/glut/glutx86/glut32.dll 
      3rdparty/AntTweakBar.1.16/lib/AntTweakBar.dll
+	 3rdparty/AntTweakBar.1.16/lib/AntTweakBar64.dll
      3rdparty/ode-0.13/lib/DebugDoubleDLL/ode_doubled.dll)
   install (FILES ${INSTALL_LIST} DESTINATION ${CMAKE_SOURCE_DIR}/bin/Debug)
   install (FILES ${INSTALL_LIST} DESTINATION ${CMAKE_SOURCE_DIR}/bin/Release)
