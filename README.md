@@ -7,10 +7,22 @@ During my Computer Animation course I developed key animation library features, 
 
 Project dependencies are located in *3rdparty*. You shouldn't need to touch these.
 
-For this assignment, the code I developed can be found in \
-*assignments/a3-splines/ACurveEditor.cpp* \
-and \
-*libsrc/animation/AInterpolator-basecode.cpp*.
+For this assignment, the code I developed can be found in:
+* *assignments/a3-splines/ACurveEditor.cpp*
+* *libsrc/animation/AInterpolator-basecode.cpp*
+
+**The Functions I developed:**
+*ACurveEditor*
+* drawCurve
+* update
+
+*AInterpolator-basecode*
+* AInterpolatorLinear::interpolate
+* AInterpolatorLinear::computeControlPoints
+* AInterpolatorCatmullRom::interpolate
+* AInterpolatorCatmullRom::computeControlPoint
+* AInterpolatorHermite::interpolate
+* AInterpolatorHermite::computeControlPoint
 
 **Description** \
 This spline curve editor was created during my Computer Animation course at Swarthmore College. The goal was to create an interactive way to learn about different types of splines/interpolation. I implemented functions to calculate control points for Catmul-Rom and Hermite Splines respectively. Additionally, I developed functions to interpolate a point across each spline. 
