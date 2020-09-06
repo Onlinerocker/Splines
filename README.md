@@ -11,7 +11,8 @@ For this assignment, the code I developed can be found in:
 * *assignments/a3-splines/ACurveEditor.cpp*
 * *libsrc/animation/AInterpolator-basecode.cpp*
 
-**The Functions I developed:**
+**The Functions I developed:**\
+\
 *ACurveEditor*
 * drawCurve
 * update
