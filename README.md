@@ -21,9 +21,9 @@ For this assignment, the code I developed can be found in:
 * AInterpolatorLinear::interpolate
 * AInterpolatorLinear::computeControlPoints
 * AInterpolatorCatmullRom::interpolate
-* AInterpolatorCatmullRom::computeControlPoint
+* AInterpolatorCatmullRom::computeControlPoints
 * AInterpolatorHermite::interpolate
-* AInterpolatorHermite::computeControlPoint
+* AInterpolatorHermite::computeControlPoints
 
 **Description** \
 This spline curve editor was created during my Computer Animation course at Swarthmore College. The goal was to create an interactive way to learn about different types of splines/interpolation. I implemented functions to calculate control points for Catmul-Rom and Hermite Splines respectively. Additionally, I developed functions to interpolate a point across each spline. 
